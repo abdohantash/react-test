@@ -5,7 +5,7 @@ const Test = ({listName,deleteBtns}) => {
     <div className='card' key={idx}>
       {/* {images.map((elemt , i) => (
           <img src={elemt} alt="" key={i}/>
-      ))} */}
+      ))} */} 
       <img src={thumbnail} alt="" />
       <h1>{title}</h1>
       <p>{description}</p>
